@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GengarZone</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="EstilosIngreso.css" />
+</head>
+<body>
+
+  <!-- Menú superior -->
+  <nav class="top-menu d-flex justify-content-between align-items-center">
+    <span class="brand-name me-3"><img src="IMAGENES/LOGO.png" alt="logo" class = "logo" onclick="window.location.href='Bienvenida.html'"></span>
+      <div class="d-flex flex-grow-1 justify-content-between gap-3">
+    <button class="btn btn-sm rounded-3 btnancho btncolor" onclick="window.location.href='Iniciarsesion.html'">Iniciar sesión</button>
+    <button class="btn btn-sm rounded-3 btnancho btncolor"onclick="window.location.href='Registro.html'">Registrarse</button>
+    <button class="btn btn-sm rounded-3 btnancho btncolor" onclick="window.location.href='../INVITADO/PaginaPrincipal.html'">Invitado</button>
+    <button class="btn btn-sm rounded-3 btnancho btncolor"onclick="window.location.href='../INVITADO/Acercadenosotros.html'">Acerca de nosotros</button>
+    </div>
+  </nav>
+
+
+  <!-- Contenido principal -->
+<div class="d-flex contenido p-4 centrar-div">
+  <div class="p-5 text-center centrar-todo" > <p class="tamaño negrita">REGÍSTRATE</p></div>
+  <div class="p-5">
+
+<div class="mb-3 d-flex align-items-center">
+  <label for="nombre1" class="form-label negrita tamaño3 me-2" style="width: 200px;">Nombre(s):</label>
+  <input type="text" class="form-control" id="nombre1" placeholder="Escribe tu nombre" style="flex: 1">
+</div>
+<div class="mb-3 d-flex align-items-center">
+  <label for="nombre1" class="form-label negrita tamaño3 me-2" style="width: 200px;">Apellido paterno:</label>
+  <input type="text" class="form-control cajas-reg" id="nombre1" placeholder="Escribe tu apellido paterno" style="flex: 1">
+</div>
+<div class="mb-3 d-flex align-items-center">
+  <label for="nombre1" class="form-label negrita tamaño3 me-2" style="width: 200px;">Apellido materno:</label>
+  <input type="text" class="form-control" id="nombre1" placeholder="Escribe tu apellido materno" style="flex: 1">
+</div>
+<div class="mb-3 d-flex align-items-center">
+  <label for="nombre1" class="form-label negrita tamaño3 me-2" style="width: 200px;">Fecha de nacimiento:</label>
+  <input type="text" class="form-control" id="nombre1" placeholder="DD/MM/YYYY" style="flex: 1">
+</div>
+<div class="mb-3 d-flex align-items-center">
+  <label for="nombre1" class="form-label negrita tamaño3 me-2" style="width: 200px;">Nombre de usuario:</label>
+  <input type="text" class="form-control" id="nombre1" placeholder="Crea un apodo" style="flex: 1">
+</div>
+<div class="mb-3 d-flex align-items-center">
+  <label for="nombre1" class="form-label negrita tamaño3 me-2" style="width: 200px;">Correo electrónico:</label>
+  <input type="text" class="form-control" id="nombre1" placeholder="Escribe tu correo" style="flex: 1">
+</div>
+<div class="mb-3 d-flex align-items-center">
+  <label for="nombre1" class="form-label negrita tamaño3 me-2" style="width: 200px;">Contraseña:</label>
+  <input type="text" class="form-control" id="nombre1" placeholder="Crea una contraseña" style="flex: 1">
+</div>
+
+<div class="text-center">
+      <button class="btn-registro rounded-3"onclick="window.location.href='../USUARIO/PaginaPrincipal.html'">Registrarse</button>
+      </div>
+  </div>
+</div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

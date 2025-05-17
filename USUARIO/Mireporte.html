@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GengarZone</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="EstilosAdmin.css" />
+
+</head>
+<body>
+
+  <!-- Menú superior -->
+  <nav class="top-menu d-flex justify-content-between align-items-center">
+    <span class="brand-name me-3"><img src="IMAGENES/LOGO.png" alt="logo" class = "logo" onclick="window.location.href='../INGRESO/Bienvenida.html'"></span>
+      <div class="d-flex flex-grow-1 justify-content-between gap-3">
+    <button class="btn btn-sm rounded-3 btnancho btncolor" onclick="window.location.href='../INGRESO/Iniciarsesion.html'">Iniciar sesión</button>
+    <button class="btn btn-sm rounded-3 btnancho btncolor" onclick="window.location.href='../INGRESO/Registro.html'">Registrarse</button>
+    <button class="btn btn-sm rounded-3 btnancho btncolor" onclick="window.location.href='../INVITADO/PaginaPrincipal.html'">Invitado</button>
+    <button class="btn btn-sm rounded-3 btnancho btncolor" onclick="window.location.href='Acercadenosotros.html'">Acerca de nosotros</button>
+    </div>
+  </nav>
+
+  <!-- Menú lateral -->
+ <aside class="side-menu">
+    <ul class="list-unstyled">
+      <li><a href="Categorias.html">Categorías</a></li>
+      <li><a href="Miperfil.html">Mi perfil</a></li>
+      <li><a href="Nuevapublicacion.html">Nueva publicación</a></li>
+      <li><a href="Listapublicaciones.html">Lista de publicaciones</a></li>
+      <li><a href="Misreportes.html">Mis reportes</a></li>
+      <li><a href="../INGRESO/Bienvenida.html">Salir</a></li>
+    </ul>
+  </aside>
+
+  <!-- Contenido principal -->
+  <div class="main-content">
+    <div class="post-card mb-3">
+      <h5 class="text-center">Redacción agresiva</h5>
+      <div class="d-flex justify-content-between">
+        <div>
+          <p><strong>kanekiken2005</strong></p>
+        </div>
+        <div>
+          <p><strong>16/05/2025</strong></p>
+        </div>
+      </div>
+     
+      <p class="justificado">Considero que la publicación "FIFA vs PES" es una publicación que está escrita 
+        de una forma un tanto agresiva creo yo, ya que emplea ciertas palabras antisonantes. Espero que hagan 
+        seguimiento de este caso, estoy al tanto de su respuesta, gracias</p>
+      <div class="d-flex justify-content-center gap-3">
+      <div class="text-center">
+      <button class="btn-cate rounded-3" onclick="window.location.href='Misreportes.html'">Atrás</button>
+      </div>
+      <div class="text-center">
+      <button class="btn-cate rounded-3" onclick="window.location.href='Editarmireporte.html'">Editar</button>
+      </div>
+      </div>
+    </div>
+
+    <div class="post-card mb-3">
+      <div class="d-flex justify-content-between">
+        <div>
+          <p><strong>LuisTrunks</strong></p>
+        </div>
+        <div>
+          <p><strong>16/05/2025</strong></p>
+        </div>
+      </div>
+
+      <p class="justificado">Reporte en seguimiento, gracias por su aviso.</p>
+      
+    </div>
+
+    <div class="mb-3 d-flex align-items-center">
+    <input type="text" class="form-control rounded-3" id="nombre1" placeholder="Respuesta" style="flex: 1">
+    <button class="btn-comen rounded-3">&#8594;</button>
+     </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
